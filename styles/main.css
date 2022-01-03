@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+}
+
+body{
+    background-color: #191919;
+}
+
+p{
+    color: #484848;
+}
+
+#reloj {
+    color: #00ff97;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actual {
+    color: #00ff97;
+}
+
+.noactual {
+    display: none;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+.botones {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+button {
+    border: none;
+    font-size: 25px;
+    background-color: #191919;
+    color: #484848;
+}
+
+@media only screen and (min-width: 1024px){
+    .noactual{
+        display: flex;
+    }
+    #reloj {
+        font-size: 5em;
+    }
+}
